@@ -4,7 +4,7 @@ Team repo for Feb Hackathon '24
 
 
 ## **Intro**
-Tne app Valentine Ventures was designed to allow the user to be able to find a romantic location anywhere in the world. The site brings the user to a form style page or a map where they can select a country. From the country they will be presented with a number of romantic locations, where they can select one. The site displays an image of the location and a brief discription about the location. The user can then select the specific location which enables them to get a more discriptive overview about the location and also an ability to read reviews about that specific location.  The app also allows the user, as well as read the reviews, to enter their own review and images of their own experiences and to rate the location. 
+
 
 ## **Deployment**
 
@@ -36,6 +36,14 @@ The planning was as follows
 ### **Wireframes**
 
 For this project we made wireframes to help with planning and design. While some changes were made as we went along and ideas were added to our project, original wireframes can be found below:
+
+![image](https://github.com/SamMartin92/hackathon-team-10/assets/99427270/6373ec12-7f0f-4913-ba9e-907847d9de61)
+![image](https://github.com/SamMartin92/hackathon-team-10/assets/99427270/2fe37af1-dccd-4438-8a62-87a7f9633d2a)
+![image](https://github.com/SamMartin92/hackathon-team-10/assets/99427270/d80ad823-cb26-4ca9-96c7-7086bf75af78)
+![image](https://github.com/SamMartin92/hackathon-team-10/assets/99427270/56256a45-e9a4-49f7-bc2f-d94643b1669a)
+
+
+
 
 
 ## **Tech**
