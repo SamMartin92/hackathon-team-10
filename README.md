@@ -26,14 +26,8 @@ The planning was as follows
 
 The objective of the app is to allow the user to easily find romantic locations around the world, to have the ability to read reviews from people that visited these sites and to also have the ability to upload their own review and images.
 
-#### Problem Statement
-
-
 #### Target Audience
 Our target audience is any gender adult, aged 18+, who is in a relationship or married, is a user of smartphones, of varied income and based anywhere in the world. 
-
-
-#### Benefits
 
 ### Color Pallette
 
@@ -56,4 +50,12 @@ For this project we made wireframes to help with planning and design. While some
 
 
 ## **Credits**
+Thank you for the team effort to:
+
+* [Viola] (https://github.com/violaberg)
+* [Sam] (https://github.com/SamMartin92)
+* [Steph] (https://github.com/StephShobiye)
+* [Emilion] (https://github.com/EmilionR)
+* [Declan] (https://github.com/Declan444)
+* [Laura] (https://github.com/laurakond)
 
