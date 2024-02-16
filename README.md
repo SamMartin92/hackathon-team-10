@@ -4,7 +4,7 @@ Team repo for Feb Hackathon '24
 
 
 ## **Intro**
-
+The app is designed to allow the users to find romantic places to bring their loved one on valentines day. The app allows the user to find locations world wide. The user enters the country of choice and is then offered a number of location in that country. The user can then search via city, rural location, vineyard etc in a specific region and is offered locations. This search can be carried out via a map or though a drip down box. 
 
 ## **Deployment**
 
