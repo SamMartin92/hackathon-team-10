@@ -4,7 +4,7 @@ Team repo for Feb Hackathon '24
 
 
 ## **Intro**
-hello
+
 
 ## **Deployment**
 
@@ -13,6 +13,12 @@ hello
 ### Forking the GitHub Repository
 
 ## **Planning Stage**
+The planning was as follows
+  1. Select a project.
+  2. Develop user requirements for such an app.
+  3. Develop a wireframes image of the potential app.
+  4. Select colours for the app.
+  5. Select fonts for the app.
 
 ### **Site Goals**
 
