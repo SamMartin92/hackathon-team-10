@@ -34,9 +34,6 @@ For this project we made wireframes to help with planning and design. While some
 
   <summary>Wireframes</summary>
 
-![Wireframes](assets/wireframes/countdown_wireframe1.png)
-
-![Wireframes](assets/wireframes/countdown_wireframe2.png)
 
 </details>
 
