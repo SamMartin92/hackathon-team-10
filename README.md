@@ -24,6 +24,8 @@ The planning was as follows
 
 #### Objectives
 
+The objective of the app is to allow the user to easily find romantic locations around the world, to have the ability to read reviews from people that visited these sites and to also have the ability to upload their own review and images.
+
 #### Problem Statement
 
 
