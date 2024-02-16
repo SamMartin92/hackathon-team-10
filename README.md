@@ -32,6 +32,9 @@ The planning was as follows
 
 #### Benefits
 
+### Color Pallette
+
+![image](https://github.com/SamMartin92/hackathon-team-10/assets/119152450/998ced7e-626e-42e2-8a2a-a51fc488262a)
 
 ### **Wireframes**
 
