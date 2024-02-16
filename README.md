@@ -30,6 +30,7 @@ The objective of the app is to allow the user to easily find romantic locations 
 
 
 #### Target Audience
+Our target audience is any gender adult, aged 18+, who is in a relationship or married, is a user of smartphones, of varied income and based anywhere in the world. 
 
 
 #### Benefits
