@@ -1,5 +1,22 @@
-{% extends base %}
+{% extends "base.html" %}
 
 {% block content %}
 
-{% endblock content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>{{ location.name }}</h1>
+            <p>{{ location.description }}</p>
+            <p>{{ location.price }}</p>
+            <p>{{ location.duration }}</p>
+            <p>{{ location.date }}</p>
+            <img src="{{ location.image }}" width="600px">
+            <form method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit" class="btn btn-primary">Submit review</button>
+            </form>
+        </div>
+    </div>
+
+    {% endblock content %}
