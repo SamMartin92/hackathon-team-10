@@ -1,11 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Select Your Destination</title>
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
+
 <body>
     <header>
         <h1>Select your destination</h1>
@@ -13,11 +19,18 @@
     <section>
         <label for="country">Start typing:</label>
         <input type="text" id="country" placeholder="Countries...">
-        <ul>
-            <li>Finland</li>
-            <li>France</li>
-            <!-- Add more country options here -->
-        </ul>
+        <div class="container">
+            <div class="row">
+                {% for location in locations %}
+                <div class="col">
+                    <h2>{{ location.name }}</h2>
+                    <img src="{{ location.image }}" alt="">
+                    <p>{{ location.description }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
         <button>Map view</button>
         <select id="city">
             <option value="city">City</option>
@@ -41,4 +54,7 @@
     </section>
     <!-- Add any other sections or elements as needed -->
 </body>
+
 </html>
+
+{% endblock content %}
