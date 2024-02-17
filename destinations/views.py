@@ -6,7 +6,6 @@ from .models import Location
 # Create your views here.
 
 class Destinations(ListView):
-    model = Location
+    queryset = Location.objects.all()
     template_name = "destinations.html"
     context_object_name = "locations"
-    
