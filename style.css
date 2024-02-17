@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
 /* styles.css */
+
+
 
 /* Apply styles to the body or specific elements */
 body {
@@ -14,7 +17,7 @@ body {
 }
 
 h1 {
-    font-family: Valentine;
+    font-family: 'Tangerine';
     color: #320011; /* Set heading color to 320011 (deep maroon) */
     font-size: 2.5rem;
     margin-bottom: 20px;
