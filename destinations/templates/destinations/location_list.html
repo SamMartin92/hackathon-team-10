@@ -15,7 +15,7 @@
                 <div class="col">
                     <h2><a href="{% url 'location' location.id %}">{{ location.name }}</a></h2>
                     <img src="{{ location.image }}" alt="">
-                    <p>{{ location.description }}</p>
+                    <p>{{ location.description | safe }}</p>
                 </div>
                 {% endfor %}
             </div>
