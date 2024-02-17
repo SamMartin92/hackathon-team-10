@@ -33,7 +33,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '127.0.0.1',
     '.herokuapp.com',
-    '8000-sammartin92-hackathonte-y5xqqyuiijg.ws-eu108.gitpod.io',
+    '8000-sammartin92-hackathonte-3xibzi93vvv.ws-eu108.gitpod.io',
 ]
 
 # Application definition
@@ -91,7 +91,8 @@ DATABASES = {
 CSRF_TRUSTED_ORIGINS = [
     "https://127.0.0.1",
     "https://*.herokuapp.com",
-    "http://127.0.0.1:8000"
+    "http://127.0.0.1:8000",
+    "https://8000-sammartin92-hackathonte-3xibzi93vvv.ws-eu108.gitpod.io",
 ]
 
 # Password validation
