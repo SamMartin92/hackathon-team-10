@@ -1,5 +1,9 @@
 /* styles.css */
 
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+
 /* Apply styles to the body or specific elements */
 body {
     font-family: Roboto, sans-serif;
@@ -14,7 +18,7 @@ body {
 }
 
 h1 {
-    font-family: Valentine;
+    font-family: "Tangerine", cursive;
     color: #320011; /* Set heading color to 320011 (deep maroon) */
     font-size: 2.5rem;
     margin-bottom: 20px;
@@ -37,7 +41,7 @@ a.btn-primary {
 }
 
 a.btn-primary:hover {
-    background-color: #2 #DCBEBE; /* Slightly darker green on hover */
+    background-color: #DCBEBE; /* Slightly darker green on hover */
 }
 
 .text-right.small {
@@ -77,6 +81,7 @@ body {
 }
 
 h1 {
+    font-family: 'Tangerine', cursive;
     color: #320011; /* color for the heading */
     font-size: 2.5rem;
     margin-bottom: 20px;
@@ -106,6 +111,33 @@ a.btn-primary:hover {
     color: #6c757d; /* Gray color for the background note */
     font-size: 0.8rem;
     margin-top: 10px;
+}
+
+/**Footer*/
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--dark);
+    color: var(--light);
+    line-height: 1.5rem;
+    padding-block: 0.5rem;
+  
+    & ul {
+      --_gap: 2rem;
+      width: 100%;
+    }
+  
+    & li {
+      padding-inline: 1rem;
+    }
+  
+    & a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: var(--light);
+    }
 }
 
 /* Add any additional styles you need */
