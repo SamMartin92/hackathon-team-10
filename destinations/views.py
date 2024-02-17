@@ -9,3 +9,4 @@ class Destinations(ListView):
     queryset = Location.objects.all()
     template_name = "destinations.html"
     context_object_name = "locations"
+    paginate_by = 6
