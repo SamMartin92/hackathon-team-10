@@ -31,4 +31,4 @@ class Review(models.Model):
     posted_on = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return self.rating
+        return f"{self.rating}, {self.location.name}, {self.name}"
