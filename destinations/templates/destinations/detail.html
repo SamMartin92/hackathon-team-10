@@ -2,8 +2,11 @@
 
 {% block content %}
 
+<div class="container-fluid">
+=========
 
 <div class="container">
+>>>>>>>>> Temporary merge branch 2
     <div class="row">
         <div class="col-md-12">
             <h1>{{ location.name }}</h1>
@@ -11,7 +14,7 @@
             <p>{{ location.price }}</p>
             <p>{{ location.duration }}</p>
             <p>{{ location.date }}</p>
-            <img src="{{ location.image }}" width="600px">
+            <img class="img-fluid" src="{{ location.image }}">
             <form method="post">
                 {% csrf_token %}
                 {{ form.as_p }}
