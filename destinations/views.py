@@ -9,3 +9,4 @@ class Destinations(ListView):
     model = Location
     template_name = "destinations.html"
     context_object_name = "locations"
+    

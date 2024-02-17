@@ -13,6 +13,9 @@ class Location(models.Model):
     city = models.CharField(max_length=100)
     slug = models.SlugField(unique=True)
 
+    class Meta:
+        ordering = ["created_on"]
+
     def __str__(self):
         return self.name
 
@@ -30,5 +33,10 @@ class Review(models.Model):
     location = ForeignKey(Location, on_delete=models.CASCADE, related_name="review")
     posted_on = models.DateTimeField(auto_now_add=True)
 
+    class Meta:
+        ordering = ["created_on"]
+
     def __str__(self):
         return f"{self.rating}, {self.location.name}, {self.name}"
+    
+    
