@@ -16,9 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from destinations.views import destinations
+from destinations.views import Destinations
+from django.urls import include
 
 urlpatterns = [
-    path("destinations/", destinations, name='destinations'),
+    path("destinations/", Destinations.as_view(), name='destinations'),
     path('admin/', admin.site.urls),
+    path('summernote/', include('django_summernote.urls')),
 ]
