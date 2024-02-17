@@ -23,7 +23,7 @@
             <div class="row">
                 {% for location in locations %}
                 <div class="col">
-                    <h2>{{ location.name }}</h2>
+                    <h2><a href="{% url 'detail' location.id %}">{{ location.name }}</a></h2>
                     <img src="{{ location.image }}" alt="">
                     <p>{{ location.description }}</p>
                 </div>
