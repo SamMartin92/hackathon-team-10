@@ -108,6 +108,32 @@ a.btn-primary:hover {
     margin-top: 10px;
 }
 
+/**Footer*/
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--dark);
+    color: var(--light);
+    line-height: 1.5rem;
+    padding-block: 0.5rem;
+  
+    & ul {
+      --_gap: 2rem;
+      width: 100%;
+    }
+  
+    & li {
+      padding-inline: 1rem;
+    }
+  
+    & a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: var(--light);
+    }
+
 /* Add any additional styles you need */
 
 /* Media queries for responsiveness (optional) */
