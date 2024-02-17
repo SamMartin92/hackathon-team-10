@@ -29,11 +29,17 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+DEBUG = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
     '.herokuapp.com',
+<<<<<<< HEAD
     '8000-sammartin92-hackathonte-3xibzi93vvv.ws-eu108.gitpod.io',
+=======
+    '8000-sammartin92-hackathonte-6coc3ged0u5.ws-eu108.gitpod.io',
+    '8000-cmed01-hackathonteam10-2nn83g7rtft.ws-eu108.gitpod.io',
+>>>>>>> a63a0d9b317bce787acea464a6e1ba1716cae711
 ]
 
 # Application definition
@@ -90,9 +96,13 @@ DATABASES = {
 
 CSRF_TRUSTED_ORIGINS = [
     "https://127.0.0.1",
+<<<<<<< HEAD
     "https://*.herokuapp.com",
     "http://127.0.0.1:8000",
     "https://8000-sammartin92-hackathonte-3xibzi93vvv.ws-eu108.gitpod.io",
+=======
+    "https://*.herokuapp.com"
+>>>>>>> a63a0d9b317bce787acea464a6e1ba1716cae711
 ]
 
 # Password validation
