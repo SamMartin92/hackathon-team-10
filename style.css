@@ -77,7 +77,7 @@ body {
 }
 
 h1 {
-    color: #007bff; /* Blue color for the heading */
+    color: #320011; /* color for the heading */
     font-size: 2.5rem;
     margin-bottom: 20px;
 }
@@ -89,7 +89,7 @@ p.lead {
 }
 
 a.btn-primary {
-    background-color: #28a745; /* Green color for the button */
+    background-color: #333; /* color for the button */
     border: none;
     padding: 10px 20px;
     color: #fff;
@@ -99,7 +99,7 @@ a.btn-primary {
 }
 
 a.btn-primary:hover {
-    background-color: #218838; /* Slightly darker green on hover */
+    background-color: #f0f4f1; /* color on hover */
 }
 
 .text-right.small {
