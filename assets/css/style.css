@@ -81,6 +81,7 @@ body {
 }
 
 h1 {
+    font-family: 'Tangerine', cursive;
     color: #320011; /* color for the heading */
     font-size: 2.5rem;
     margin-bottom: 20px;
