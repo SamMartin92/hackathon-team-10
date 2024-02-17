@@ -16,11 +16,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from destinations.views import Destinations
+from destinations.views import Destinations, location, index
 from django.urls import include
 
 urlpatterns = [
+    path("", index, name='index'),
     path("destinations/", Destinations.as_view(), name='destinations'),
+    path('location/<int:location_id>/', location, name='location'),
     path('admin/', admin.site.urls),
     path('summernote/', include('django_summernote.urls')),
 ]

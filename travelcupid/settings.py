@@ -29,11 +29,12 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+DEBUG = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
     '.herokuapp.com',
-    '8000-cmed01-hackathonteam10-2nn83g7rtft.ws-eu108.gitpod.io',
+    '8000-sammartin92-hackathonte-6coc3ged0u5.ws-eu108.gitpod.io',
 ]
 
 # Application definition
