@@ -4,7 +4,8 @@ from .models import Location
 from .forms import ReviewForm
 
 # Create your views here.
-
+def index(request):
+    return render(request, 'index.html')
 
 # List of destinations
 class Destinations(ListView):
