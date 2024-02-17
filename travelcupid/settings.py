@@ -33,7 +33,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '127.0.0.1',
     '.herokuapp.com',
-    '8000-sammartin92-hackathonte-6coc3ged0u5.ws-eu108.gitpod.io',
+    '8000-sammartin92-hackathonte-y5xqqyuiijg.ws-eu108.gitpod.io',
 ]
 
 # Application definition
