@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Your Destination</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Select your destination</h1>
+    </header>
+    <section>
+        <label for="country">Start typing:</label>
+        <input type="text" id="country" placeholder="Countries...">
+        <ul>
+            <li>Finland</li>
+            <li>France</li>
+            <!-- Add more country options here -->
+        </ul>
+        <button>Map view</button>
+        <select id="city">
+            <option value="city">City</option>
+            <option value="countryside">Countryside</option>
+            <option value="win">Wineries</option>
+            <!-- Add more options as needed -->
+        </select>
+        <input type="checkbox" id="obscure"> Enable obscure/non-touristy locations
+        <select id="filter">
+            <option value="bad">Bad review</option>
+            <option value="good">Good review</option>
+            <option value="funny">Funny review</option>
+            <!-- Add more filter options here -->
+        </select>
+        <!-- Display the list of destinations here -->
+        <ul>
+            <li>Destination 1</li>
+            <li>Destination 2</li>
+            <!-- Add more destinations -->
+        </ul>
+    </section>
+    <!-- Add any other sections or elements as needed -->
+</body>
+</html>
