@@ -20,6 +20,7 @@ def location(request, location_id):
     location = Location.objects.get(id=location_id)
     reviews = location.review.all()
     
+    
     if request.method == 'POST':
         form = ReviewForm(request.POST)
         if form.is_valid():
@@ -30,10 +31,20 @@ def location(request, location_id):
     else:
         form = ReviewForm()
 
+    review_list = list(reviews.values())
+    score=0
+    for el in review_list: 
+        score += el['rating']
+        avg_score = round(score/len(review_list), 2)
+        
+
     context = {
         'location': location,
         'reviews': reviews,
         'form': form,
+        'review_list': review_list,
+        'avg_score': avg_score,
     }
+
     return render(request, 'destinations/detail.html', context)
     
