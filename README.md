@@ -52,10 +52,10 @@ For this project we made wireframes to help with planning and design. While some
 ## **Credits**
 Thank you for the team effort to:
 
-* [Viola] (https://github.com/violaberg)
-* [Sam] (https://github.com/SamMartin92)
-* [Steph] (https://github.com/StephShobiye)
-* [Emilion] (https://github.com/EmilionR)
-* [Declan] (https://github.com/Declan444)
-* [Laura] (https://github.com/laurakond)
+* [Viola](https://github.com/violaberg)
+* [Sam](https://github.com/SamMartin92) 
+* [Steph](https://github.com/StephShobiye)
+* [Emilion](https://github.com/EmilionR)
+* [Declan](https://github.com/Declan444)
+* [Laura](https://github.com/laurakond)
 
