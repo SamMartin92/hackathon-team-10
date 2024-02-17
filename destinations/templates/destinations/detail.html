@@ -3,24 +3,50 @@
 {% block content %}
 
 <div class="container-fluid">
-=========
 
-<div class="container">
->>>>>>>>> Temporary merge branch 2
-    <div class="row">
-        <div class="col-md-12">
-            <h1>{{ location.name }}</h1>
-            <p>{{ location.description | safe }}</p>
-            <p>{{ location.price }}</p>
-            <p>{{ location.duration }}</p>
-            <p>{{ location.date }}</p>
-            <img class="img-fluid" src="{{ location.image }}">
-            <form method="post">
-                {% csrf_token %}
-                {{ form.as_p }}
-                <button type="submit" class="btn btn-primary">Submit review</button>
-            </form>
+
+    <div class="container">
+        <div class="row">
+            <div class="card">
+                <div class="card-body">
+                    <h1>{{ location.name }}</h1>
+                    <p>Average score: {{ avg_score }}/5 <a href="#reviews">See reviews</a></p>
+                </div>
+              </div>
+
         </div>
-    </div>
 
-    {% endblock content %}
+
+        <div class="row">
+            <div class="col-md-12">
+                
+                <p>{{ location.description | safe }}</p>
+                <p>{{ location.price }}</p>
+                <p>{{ location.duration }}</p>
+                <p>{{ location.date }}</p>
+                <img class="img-fluid" src="{{ location.image }}">
+                <form method="post">
+                    {% csrf_token %}
+                    {{ form.as_p }}
+                    <button type="submit" class="btn btn-primary">Submit review</button>
+                </form>
+            </div>
+        </div>
+
+        <div id="reviews"> 
+            <h2>Reviews:</h2>
+
+            {% for review in reviews %}
+
+            <div class="card">
+                <div class="card-body">
+                  <p>{{ review.name}}</p>
+                  <p>{{ review.description }}</p>
+                  <p>{{ review.rating }} &#x2606</p>
+                    
+              </div>
+
+            {% endfor %}
+        </div>
+
+        {% endblock content %}
