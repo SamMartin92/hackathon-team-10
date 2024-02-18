@@ -12,7 +12,7 @@ class Destinations(ListView):
     queryset = Location.objects.all()
     template_name = "destinations.html"
     context_object_name = "locations"
-    paginate_by = 10
+    paginate_by = 5
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
