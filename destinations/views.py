@@ -2,6 +2,8 @@ from django.shortcuts import render, redirect
 from django.views.generic import ListView
 from .models import Location
 from .forms import ReviewForm
+from django.db.models import Q
+
 
 # Create your views here.
 def index(request):
@@ -9,12 +11,24 @@ def index(request):
 
 # List of destinations
 class Destinations(ListView):
-    queryset = Location.objects.all()
     template_name = "destinations.html"
     context_object_name = "locations"
     paginate_by = 5
     coords = list(queryset.values_list('coords', flat=True))
     print(coords)
+
+    def get_queryset(self):
+        queryset = Location.objects.all()
+        search_term = self.request.GET.get('search', '')
+        if search_term:
+            queryset = queryset.filter(
+                Q(name__icontains=search_term) |
+                Q(description__icontains=search_term) |
+                Q(city__icontains=search_term) |
+                Q(country__icontains=search_term)
+                # Add more fields here if you want to search in them
+            )
+        return queryset
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
