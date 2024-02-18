@@ -39,10 +39,11 @@ def location(request, location_id):
         has_reviews = True
         for el in review_list: 
             score += el['rating']
-            avg_score = round(score/len(review_list), 2)
+            avg_score = int(round(score/len(review_list), 2))
+            
     else:
         avg_score = 3 
-        has_reviews = False      
+        has_reviews = False
 
     context = {
         'location': location,

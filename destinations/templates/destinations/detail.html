@@ -10,7 +10,17 @@
             <div class="card">
                 <div class="card-body">
                     <h1>{{ location.name }}</h1>
-                    <p>Average score: {{ avg_score }}/5 <a href="#reviews">See reviews</a></p>
+                    <p>Average score:
+                        {% for i in ''|center:5 %}
+                            {% if avg_score >= forloop.counter %}
+                                <i class="fas fa-heart"></i>
+                            {% else %}
+                                <i class="far fa-heart"></i>
+                            {% endif %}
+                        {% endfor %}
+                        <a href="#reviews">See reviews</a>
+                    </p>
+
                 </div>
               </div>
 
@@ -36,17 +46,20 @@
         <div id="reviews"> 
             <h2>Reviews:</h2>
             {% if has_reviews %}
-            {% for review in reviews %}
-
-            <div class="card">
-                <div class="card-body">
-                  <p>{{ review.name}}</p>
-                  <p>{{ review.description }}</p>
-                  <p>{{ review.rating }} &#x2606</p>
-                    
-              </div>
-
-            {% endfor %}
+                {% for review in reviews %}
+                <div class="card">
+                    <div class="card-body">
+                    <p>{{ review.name}}</p>
+                    <p>{{ review.description }}</p>
+                    {% for i in ''|center:5 %}
+                                {% if review.rating >= forloop.counter %}
+                                    <i class="fas fa-heart"></i>
+                                {% else %}
+                                    <i class="far fa-heart"></i>
+                                {% endif %}
+                            {% endfor %}
+                </div>
+                {% endfor %}
             {% else %}
             <div class="card">
                 <strong>No reviews</strong>
