@@ -25,6 +25,39 @@ h1 {
     margin-bottom: 20px;
 }
 
+p a {
+    color: #320011;
+}
+
+p a:hover {
+    color: #57021e;
+}
+
+p i {
+    color: #320011;
+}
+
+p i:hover {
+    color: #57021e;
+}
+
+h2 {
+    padding-top: 2rem;
+}
+
+.card {
+    background-color: #DCBEBE;
+    border: none;
+}
+
+.location-name a {
+    color: #320011;
+}
+
+.location-name a:hover {
+    color: #57021e;
+}
+
 p.lead {
     font-size: 1.2rem;
     margin-bottom: 30px;
@@ -41,6 +74,20 @@ a.btn-primary, .btn-detail-submit {
 }
 
 a.btn-primary:hover, .btn-detail-submit:hover {
+    background-color: #57021e; /* color on hover */
+}
+
+.btn-primary {
+    background-color: #320011; /* color for the button */
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
     background-color: #57021e; /* color on hover */
 }
 
@@ -86,17 +133,7 @@ footer {
 }
 
 .copyright {
-    padding-top: 1rem;
-}
-
-/* Detail Page */
-
-.detail-card-bg {
-    background-color: #e8dfdf;
-}
-
-.btn-detail-submit {
-
+    padding: 1rem 0;
 }
 
 /* Media queries for responsiveness (optional) */
