@@ -8,7 +8,7 @@ admin.site.register(Review)
 @admin.register(Location)
 class LocationAdmin(SummernoteModelAdmin):
 
-    list_display = ('name', 'country', 'slug')
+    list_display = ('id','name', 'country', 'slug')
     search_fields = ['name', 'country', 'posted_on']
     prepopulated_fields = {'slug': ('name',)}
     summernote_fields = ('description',)
