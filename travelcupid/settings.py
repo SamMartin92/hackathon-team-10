@@ -36,6 +36,7 @@ ALLOWED_HOSTS = [
     '.herokuapp.com',
     '8000-sammartin92-hackathonte-umksl6cgwc1.ws-eu108.gitpod.io',
     '8000-cmed01-hackathonteam10-2nn83g7rtft.ws-eu108.gitpod.io',
+    '8000-sammartin92-hackathonte-cphv2q3iwq6.ws-eu108.gitpod.io',
 ]
 
 # Application definition
