@@ -38,7 +38,7 @@
         <div class="container-fluid">
             <div class="row">
                 {% for location in locations %}
-                <div class="col-md-12 destination">
+                <div class="col-md-12 destination mb-2">
                     <h2 class="location-name"><a href="{% url 'location' location.id %}">{{ location.name }}</a></h2>
                     <p>
                         {% for i in ''|center:5 %}
@@ -62,8 +62,8 @@
                 {% endfor %}
             </div>
         </div>
-
-        <ul class="pagination justify-content-center">
+        <hr>
+        <ul class="pagination justify-content-center mt-2">
             {% if page_obj.has_previous %}
             <li>
                 <a href="?page={{ page_obj.previous_page_number }}"
