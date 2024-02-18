@@ -14,6 +14,18 @@
                 {% for location in locations %}
                 <div class="col-md-12">
                     <h2><a href="{% url 'location' location.id %}">{{ location.name }}</a></h2>
+                    <p>
+                        {% for i in ''|center:5 %}
+                            {% if location.avg_score >= forloop.counter %}
+                                <i class="fas fa-heart"></i>
+                            {% else %}
+                                <i class="far fa-heart"></i>
+                            {% endif %}
+                        {% endfor %}
+                        {% if not location.has_reviews %}
+                        (No reviews yet)
+                        {% endif %}
+                    </p>
                     <img class="img-fluid" src="{{ location.image }}" alt="">
                     <p>{{ location.description | safe }}</p>
                 </div>
