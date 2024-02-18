@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
+{% load static %}
 
 <body>
     <header>
@@ -10,8 +11,14 @@
         <!-- Search -->
         <label for="country">Start typing:</label>
         <form method="get">
-            <input type="text" name="search" placeholder="Countries...">
-            <input type="submit" value="Search">
+            <div class="search-wrapper">
+                <div class="search-input">
+                    <a href="" target="_blank" hidden></a>
+                    <input name="search" type="text" placeholder="Search...">
+                    <div class="autocom-box"></div>
+                </div>
+            </div>
+            <input id="search-button" type="submit" value="Search">
         </form>
         <button>Map view</button>
         <select id="city">
@@ -72,6 +79,9 @@
         
     </section>
     <!-- Add any other sections or elements as needed -->
+    {% block extra %}
+    <script type="module" src="{% static 'js/search.js' %}"></script>
+    {% endblock extra %}
 </body>
 
 
