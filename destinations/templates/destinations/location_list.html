@@ -20,7 +20,8 @@
             </div>
             <input id="search-button" type="submit" value="Search">
         </form>
-        <button>Map view</button>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">Map
+            view</button>
         <select id="city">
             <option value="city">City</option>
             <option value="countryside">Countryside</option>
@@ -34,6 +35,25 @@
             <option value="funny">Funny review</option>
             <!-- Add more filter options here -->
         </select>
+        <!-- Map Modal-->
+        <div class="modal fade" id="modal" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="map"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- Display the list of destinations here -->
         <div class="container-fluid">
             <div class="row">
@@ -42,18 +62,18 @@
                     <h2 class="location-name"><a href="{% url 'location' location.id %}">{{ location.name }}</a></h2>
                     <p>
                         {% for i in ''|center:5 %}
-                            {% if location.avg_score >= forloop.counter %}
-                                <i class="fas fa-heart"></i>
-                            {% else %}
-                                <i class="far fa-heart"></i>
-                            {% endif %}
+                        {% if location.avg_score >= forloop.counter %}
+                        <i class="fas fa-heart"></i>
+                        {% else %}
+                        <i class="far fa-heart"></i>
+                        {% endif %}
                         {% endfor %}
                         {% if not location.has_reviews %}
                         (No reviews yet)
                         {% endif %}
                     </p>
                     <img class="img-border border img-fluid border-5" src="{{ location.image }}" alt="">
-                    
+
                     <div class="fader">
                         <a href="{% url 'location' location.id %}" class="read-more text-center">Read more</a>
                     </div>
@@ -66,19 +86,17 @@
         <ul class="pagination justify-content-center mt-2">
             {% if page_obj.has_previous %}
             <li>
-                <a href="?page={{ page_obj.previous_page_number }}"
-                  class="page-link">&laquo; PREV</a>
+                <a href="?page={{ page_obj.previous_page_number }}" class="page-link">&laquo; PREV</a>
             </li>
             {% endif %}
             {% if page_obj.has_next %}
             <li>
-                <a href="?page={{ page_obj.next_page_number }}"
-                  class="page-link">NEXT &raquo;</a>
+                <a href="?page={{ page_obj.next_page_number }}" class="page-link">NEXT &raquo;</a>
             </li>
             {% endif %}
         </ul>
-        
-        
+
+
     </section>
     <!-- Add any other sections or elements as needed -->
     {% block extra %}
