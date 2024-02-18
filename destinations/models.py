@@ -12,6 +12,7 @@ class Location(models.Model):
     country = models.CharField(max_length=100)
     city = models.CharField(max_length=100)
     slug = models.SlugField(unique=True)
+    coords = models.TextField(blank=True)
 
     class Meta:
         ordering = ["name"]
