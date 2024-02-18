@@ -89,6 +89,12 @@ footer {
     padding-top: 1rem;
 }
 
+/* Detail Page */
+
+.detail-card-bg {
+    background-color: #e8dfdf;
+}
+
 /* Media queries for responsiveness (optional) */
 @media (max-width: 768px) {
     h1 {
