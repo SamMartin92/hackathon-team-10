@@ -38,9 +38,8 @@
         <div class="container-fluid">
             <div class="row">
                 {% for location in locations %}
-                <div class="col-md-12">
+                <div class="col-md-12 destination">
                     <h2 class="location-name"><a href="{% url 'location' location.id %}">{{ location.name }}</a></h2>
-
                     <p>
                         {% for i in ''|center:5 %}
                             {% if location.avg_score >= forloop.counter %}
@@ -54,7 +53,10 @@
                         {% endif %}
                     </p>
                     <img class="img-border border img-fluid border-5" src="{{ location.image }}" alt="">
-                  
+                    
+                    <div class="fader">
+                        <a href="{% url 'location' location.id %}" class="read-more text-center">Read more</a>
+                    </div>
                     <p>{{ location.description | safe }}</p>
                 </div>
                 {% endfor %}
