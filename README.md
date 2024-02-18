@@ -56,7 +56,7 @@ Thank you for the team effort to:
 * [Sam](https://github.com/SamMartin92)
 * [Chris](https://github.com/CMed01)
 * [Steph](https://github.com/StephShobiye)
-* [Emilion](https://github.com/EmilionR)
+* [Emil](https://github.com/EmilionR)
 * [Declan](https://github.com/Declan444)
 * [Laura](https://github.com/laurakond)
 
