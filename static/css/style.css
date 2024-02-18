@@ -60,6 +60,15 @@ h2 {
     position: relative;
 }
 
+a.page-link {
+    background-color: #320011;
+    color: #fff;
+}
+
+a.page-link:hover {
+    background-color: #57021e;
+}
+
 .fader {
     background: linear-gradient(to bottom, transparent, #DCBEBE);
     position: absolute;
