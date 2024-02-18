@@ -31,16 +31,23 @@ def location(request, location_id):
     else:
         form = ReviewForm()
 
+    has_reviews = False
+
     review_list = list(reviews.values())
-    score=0
-    for el in review_list: 
-        score += el['rating']
-        avg_score = round(score/len(review_list), 2)
-        
+    if len(review_list) > 0:
+        score=0
+        has_reviews = True
+        for el in review_list: 
+            score += el['rating']
+            avg_score = round(score/len(review_list), 2)
+    else:
+        avg_score = 3 
+        has_reviews = False      
 
     context = {
         'location': location,
         'reviews': reviews,
+        'has_reviews': has_reviews,
         'form': form,
         'review_list': review_list,
         'avg_score': avg_score,
