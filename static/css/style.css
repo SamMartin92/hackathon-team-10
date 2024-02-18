@@ -11,7 +11,8 @@ body {
 }
 
 .container {
-    max-width: 800px; /* Adjust as needed */
+    max-width: 800px;
+    /* Adjust as needed */
     margin: 0 auto;
     padding: 20px;
     text-align: center;
@@ -19,7 +20,8 @@ body {
 
 h1 {
     font-family: 'Tangerine', cursive;
-    color: #320011; /* color for the heading */
+    color: #320011;
+    /* color for the heading */
     font-size: 4rem;
     font-weight: 700;
     margin-bottom: 20px;
@@ -58,13 +60,19 @@ h2 {
     color: #57021e;
 }
 
+/* .coords {
+    display: none;
+} */
+
 p.lead {
     font-size: 1.2rem;
     margin-bottom: 30px;
 }
 
-a.btn-primary, .btn-detail-submit {
-    background-color: #320011; /* color for the button */
+a.btn-primary,
+.btn-detail-submit {
+    background-color: #320011;
+    /* color for the button */
     border: none;
     padding: 10px 20px;
     color: #fff;
@@ -73,12 +81,15 @@ a.btn-primary, .btn-detail-submit {
     transition: background-color 0.3s ease;
 }
 
-a.btn-primary:hover, .btn-detail-submit:hover {
-    background-color: #57021e; /* color on hover */
+a.btn-primary:hover,
+.btn-detail-submit:hover {
+    background-color: #57021e;
+    /* color on hover */
 }
 
 .btn-primary {
-    background-color: #320011; /* color for the button */
+    background-color: #320011;
+    /* color for the button */
     border: none;
     padding: 10px 20px;
     color: #fff;
@@ -88,11 +99,13 @@ a.btn-primary:hover, .btn-detail-submit:hover {
 }
 
 .btn-primary:hover {
-    background-color: #57021e; /* color on hover */
+    background-color: #57021e;
+    /* color on hover */
 }
 
 .text-right.small {
-    color: #6c757d; /* Gray color for the background note */
+    color: #6c757d;
+    /* Gray color for the background note */
     font-size: 0.8rem;
     margin-top: 10px;
 }
@@ -110,20 +123,20 @@ footer {
     background-color: #320011;
     line-height: 1.5rem;
     padding-block: 0.5rem;
-  
+
     & ul {
-      --_gap: 2rem;
-      width: 100%;
+        --_gap: 2rem;
+        width: 100%;
     }
-  
+
     & li {
-      padding-inline: 1rem;
+        padding-inline: 1rem;
     }
-  
+
     & a {
-      text-decoration: none;
-      text-transform: uppercase;
-      color: var(--light);
+        text-decoration: none;
+        text-transform: uppercase;
+        color: var(--light);
     }
 }
 
@@ -141,6 +154,7 @@ footer {
     h1 {
         font-size: 2rem;
     }
+
     p.lead {
         font-size: 1rem;
     }
@@ -151,11 +165,8 @@ footer {
     h1 {
         font-size: 2rem;
     }
+
     p.lead {
         font-size: 1rem;
     }
 }
-
-
-
-

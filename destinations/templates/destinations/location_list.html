@@ -6,6 +6,7 @@
     <header>
         <h1>Select your destination</h1>
     </header>
+    <p id="coords">{{ coords }}</p>
     <section>
         <label for="country">Start typing:</label>
         <input type="text" id="country" placeholder="Countries...">
@@ -29,6 +30,7 @@
                 {% for location in locations %}
                 <div class="col-md-12">
                     <h2 class="location-name"><a href="{% url 'location' location.id %}">{{ location.name }}</a></h2>
+                
 
                     <p>
                         {% for i in ''|center:5 %}
