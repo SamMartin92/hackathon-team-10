@@ -71,6 +71,11 @@ h2 {
     display: none;
 } */
 
+#map {
+    height: 300px;
+    width: 300px;
+}
+
 p.lead {
     font-size: 1.2rem;
     margin-bottom: 30px;
