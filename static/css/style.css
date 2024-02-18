@@ -21,7 +21,6 @@ h1 {
     font-family: "Tangerine", cursive;
     color: #320011; /* Set heading color to 320011 (deep maroon) */
     font-size: 2.5rem;
-    margin-bottom: 20px;
 }
 
 p.lead {
@@ -41,7 +40,7 @@ a.btn-primary {
 }
 
 a.btn-primary:hover {
-    background-color: #DCBEBE; /* Slightly darker green on hover */
+    background-color: #DCBEBE;
 }
 
 .text-right.small {
@@ -83,18 +82,19 @@ body {
 h1 {
     font-family: 'Tangerine', cursive;
     color: #320011; /* color for the heading */
-    font-size: 2.5rem;
+    font-size: 4rem;
+    font-weight: 700;
     margin-bottom: 20px;
 }
 
 p.lead {
-    color: #333; /* Dark gray color for the mission statement */
+    color: #0a110f; /* Dark gray color for the mission statement */
     font-size: 1.2rem;
     margin-bottom: 30px;
 }
 
 a.btn-primary {
-    background-color: #333; /* color for the button */
+    background-color: #320011; /* color for the button */
     border: none;
     padding: 10px 20px;
     color: #fff;
@@ -104,7 +104,7 @@ a.btn-primary {
 }
 
 a.btn-primary:hover {
-    background-color: #f0f4f1; /* color on hover */
+    background-color: #57021e; /* color on hover */
 }
 
 .text-right.small {
@@ -113,14 +113,17 @@ a.btn-primary:hover {
     margin-top: 10px;
 }
 
+.img-border {
+    border-color: #e8dfdf;
+}
+
 /**Footer*/
 
 footer {
     position: relative;
     bottom: 0;
     width: 100%;
-    background-color: #333333;
-    color: #ffffff !important;
+    background-color: #320011;
     line-height: 1.5rem;
     padding-block: 0.5rem;
   
@@ -140,10 +143,14 @@ footer {
     }
 }
 
-footer * {
-    color: #ffffff !important;
+.footer-text {
+    color: #e8dfdf;
+    padding: 0.3rem;
 }
 
+.copyright {
+    padding-top: 1rem;
+}
 /* Add any additional styles you need */
 
 /* Media queries for responsiveness (optional) */
