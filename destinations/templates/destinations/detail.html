@@ -33,7 +33,6 @@
                 <p>{{ location.price }}</p>
                 <p>{{ location.duration }}</p>
                 <p>{{ location.date }}</p>
-                <img class="img-fluid" src="{{ location.image }}">
                 <form method="post">
                     {% csrf_token %}
                     {{ form.as_p }}
