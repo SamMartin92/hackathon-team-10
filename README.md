@@ -16,10 +16,14 @@ The app is designed to allow the users to find romantic places to bring their lo
 ## **Planning Stage**
 The planning was as follows
   1. Select a project.
-  2. Develop user requirements for such an app.
-  3. Develop a wireframes image of the potential app.
-  4. Select colours for the app.
-  5. Select fonts for the app.
+  2. Create user stories and dev tasks using Github Kanban board.
+  3. Assign user stories to EPICS
+  4. Create labels using MoSCoW method.
+  6. Develop a wireframes of the potential app.
+  7. Select colours for the app.
+  8. Select fonts for the app.
+
+[Github Kanban board can be found following this link](https://github.com/users/SamMartin92/projects/6)
 
 While some variations can be visible in end product, we believe planning helped us to successfully work on this project and we tried to stay with choices made during planning stage.
 
