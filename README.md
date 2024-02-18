@@ -4,7 +4,9 @@ Team repo for Feb Hackathon '24
 
 
 ## **Intro**
-The app is designed to allow the users to find romantic places to bring their loved one on valentines day. The app allows the user to find locations world wide. The user enters the country of choice and is then offered a number of location in that country. The user can then search via city, rural location, vineyard etc in a specific region and is offered locations. The search can be carried out via map or form. The search offers a picture of the location and a brief discription about the location. The user can select the specific location and will be offered a more detailed description about the location and an ability to read the reviews from others. The app also offers the user the ability to input their own review, to upload their own personal pictures and to rate the location.
+The app is designed to allow the users to find romantic places to bring their loved one on valentines day. The app allows the user to find locations world wide. The user enters the country of choice and is then offered a number of location in that country. The user can then search via city, rural location, vineyard etc in a specific region and is offered locations. The search can be carried out via map or form. The search offers a picture of the location and a brief description about the location. The user can select the specific location and will be offered a more detailed description about the location and an ability to read the reviews from others. The app also offers the user the ability to input their own review, to upload their own personal pictures and to rate the location.
+
+[Deployed site can be found here](https://travelcupid-8ccb9d827f84.herokuapp.com/)
 
 ## **Deployment**
 
@@ -42,12 +44,13 @@ For this project we made wireframes to help with planning and design. While some
 ![image](https://github.com/SamMartin92/hackathon-team-10/assets/99427270/d80ad823-cb26-4ca9-96c7-7086bf75af78)
 ![image](https://github.com/SamMartin92/hackathon-team-10/assets/99427270/56256a45-e9a4-49f7-bc2f-d94643b1669a)
 
-
-
-
-
 ## **Tech**
 
+* HTML
+* CSS
+* Django
+* Bootstrap
+* Heroku
 
 ## **Credits**
 Thank you for the team effort to:
