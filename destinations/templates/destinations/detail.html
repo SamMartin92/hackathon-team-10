@@ -35,7 +35,7 @@
 
         <div id="reviews"> 
             <h2>Reviews:</h2>
-
+            {% if has_reviews %}
             {% for review in reviews %}
 
             <div class="card">
@@ -47,6 +47,12 @@
               </div>
 
             {% endfor %}
+            {% else %}
+            <div class="card">
+                <strong>No reviews</strong>
+                <p>Be the first to review this destination!</p>
+            </div>
+            {% endif %}
         </div>
 
         {% endblock content %}
