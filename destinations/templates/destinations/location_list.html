@@ -7,8 +7,12 @@
         <h1>Select your destination</h1>
     </header>
     <section>
+        <!-- Search -->
         <label for="country">Start typing:</label>
-        <input type="text" id="country" placeholder="Countries...">
+        <form method="get">
+            <input type="text" name="search" placeholder="Countries...">
+            <input type="submit" value="Search">
+        </form>
         <button>Map view</button>
         <select id="city">
             <option value="city">City</option>

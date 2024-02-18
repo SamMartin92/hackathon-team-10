@@ -25,6 +25,13 @@ h1 {
     margin-bottom: 20px;
 }
 
+.nav-bg-lt {
+    background-color: #e8dfdf !important;
+    border-radius: 12px;
+    margin: 0 4px 0 4px;
+    font-weight: 600;
+}
+
 p a {
     color: #320011;
 }
@@ -146,16 +153,9 @@ footer {
     }
 }
 
-/* Media queries for responsiveness (optional) */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 2rem;
-    }
-    p.lead {
-        font-size: 1rem;
+
+@media (min-width: 1200px) {
+    .nav-bg-lt {
+        margin-top: 25px;
     }
 }
-
-
-
-
