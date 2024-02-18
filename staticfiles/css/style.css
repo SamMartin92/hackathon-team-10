@@ -109,9 +109,9 @@ h2 {
     color: #57021e;
 }
 
-/* #coords {
-    display: none;
-} */
+.modal-btn-div{
+    margin: 15px;
+}
 
 #map {
     height: 300px;
