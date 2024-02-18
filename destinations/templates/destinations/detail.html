@@ -10,7 +10,17 @@
             <div class="card">
                 <div class="card-body">
                     <h1>{{ location.name }}</h1>
-                    <p>Average score: {{ avg_score }}/5 <a href="#reviews">See reviews</a></p>
+                    <p>Average score:
+                        {% for i in ''|center:5 %}
+                            {% if avg_score >= forloop.counter %}
+                                <i class="fas fa-heart"></i>
+                            {% else %}
+                                <i class="far fa-heart"></i>
+                            {% endif %}
+                        {% endfor %}
+                        <a href="#reviews">See reviews</a>
+                    </p>
+
                 </div>
               </div>
 

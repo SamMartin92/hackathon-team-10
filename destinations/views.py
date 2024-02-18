@@ -43,7 +43,7 @@ def location(request, location_id):
             
     else:
         avg_score = 3 
-        has_reviews = False      
+        has_reviews = False
 
     context = {
         'location': location,
