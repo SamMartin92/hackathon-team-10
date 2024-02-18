@@ -14,8 +14,6 @@ class Destinations(ListView):
     template_name = "destinations.html"
     context_object_name = "locations"
     paginate_by = 5
-    coords = list(queryset.values_list('coords', flat=True))
-    print(coords)
 
     def get_queryset(self):
         queryset = Location.objects.all()
@@ -37,7 +35,7 @@ class Destinations(ListView):
 
         # Pass the coordinates to the context
         context['coords'] = coords
-        
+
         for location in context['locations']:
             avg_score, has_reviews = calculate_rating(location.review.all())
             location.avg_score = avg_score
