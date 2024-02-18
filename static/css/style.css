@@ -64,7 +64,7 @@ p.lead {
     margin-bottom: 30px;
 }
 
-a.btn-primary {
+a.btn-primary, .btn-detail-submit {
     background-color: #320011; /* color for the button */
     border: none;
     padding: 10px 20px;
@@ -74,7 +74,7 @@ a.btn-primary {
     transition: background-color 0.3s ease;
 }
 
-a.btn-primary:hover {
+a.btn-primary:hover, .btn-detail-submit:hover {
     background-color: #57021e; /* color on hover */
 }
 
@@ -136,6 +136,16 @@ footer {
 
 .copyright {
     padding-top: 1rem;
+}
+
+/* Detail Page */
+
+.detail-card-bg {
+    background-color: #e8dfdf;
+}
+
+.btn-detail-submit {
+
 }
 
 /* Media queries for responsiveness (optional) */

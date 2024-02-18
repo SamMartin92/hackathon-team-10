@@ -6,7 +6,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="card">
+            <div class="card detail-card-bg">
                 <div class="card-body">
                     <h1>{{ location.name }}</h1>
                     <p>Average score:
@@ -33,10 +33,11 @@
                 <p>{{ location.price }}</p>
                 <p>{{ location.duration }}</p>
                 <p>{{ location.date }}</p>
+                <img class="img-fluid" src="{{ location.image }}">
                 <form method="post">
                     {% csrf_token %}
                     {{ form.as_p }}
-                    <button type="submit" class="btn btn-primary btn-md">Submit review</button>
+                    <button type="submit" class="btn btn-primary">Submit review</button>
                 </form>
             </div>
         </div>
