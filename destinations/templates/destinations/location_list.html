@@ -13,7 +13,7 @@
             <div class="row">
                 {% for location in locations %}
                 <div class="col-md-12">
-                    <h2><a href="{% url 'location' location.id %}">{{ location.name }}</a></h2>
+                    <h2 class="location-name"><a href="{% url 'location' location.id %}">{{ location.name }}</a></h2>
 
                     <p>
                         {% for i in ''|center:5 %}

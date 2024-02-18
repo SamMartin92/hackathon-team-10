@@ -28,16 +28,15 @@
 
         <div class="row">
             <div class="col-md-12">
-                
+                <img class="img-border img-fluid border border-5" src="{{ location.image }}">
                 <p>{{ location.description | safe }}</p>
                 <p>{{ location.price }}</p>
                 <p>{{ location.duration }}</p>
                 <p>{{ location.date }}</p>
-                <img class="img-fluid" src="{{ location.image }}">
                 <form method="post">
                     {% csrf_token %}
                     {{ form.as_p }}
-                    <button type="submit" class="btn btn-primary">Submit review</button>
+                    <button type="submit" class="btn btn-primary btn-md">Submit review</button>
                 </form>
             </div>
         </div>
