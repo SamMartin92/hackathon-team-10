@@ -53,7 +53,8 @@ For this project we made wireframes to help with planning and design. While some
 Thank you for the team effort to:
 
 * [Viola](https://github.com/violaberg)
-* [Sam](https://github.com/SamMartin92) 
+* [Sam](https://github.com/SamMartin92)
+* [Chris](https://github.com/CMed01)
 * [Steph](https://github.com/StephShobiye)
 * [Emilion](https://github.com/EmilionR)
 * [Declan](https://github.com/Declan444)
