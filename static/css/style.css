@@ -109,13 +109,12 @@ h2 {
     color: #57021e;
 }
 
-/* #coords {
-    display: none;
-} */
+.modal-btn-div{
+    margin: 15px;
+}
 
 #map {
-    height: 300px;
-    width: 300px;
+    height: 350px;
 }
 
 p.lead {

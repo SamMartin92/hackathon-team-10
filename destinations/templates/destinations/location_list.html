@@ -20,36 +20,20 @@
             </div>
             <input id="search-button" type="submit" value="Search">
         </form>
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">Map
-            view</button>
-        <select id="city">
-            <option value="city">City</option>
-            <option value="countryside">Countryside</option>
-            <option value="win">Wineries</option>
-            <!-- Add more options as needed -->
-        </select>
-        <input type="checkbox" id="obscure"> Enable obscure/non-touristy locations
-        <select id="filter">
-            <option value="bad">Bad review</option>
-            <option value="good">Good review</option>
-            <option value="funny">Funny review</option>
-            <!-- Add more filter options here -->
-        </select>
+        
+        <div class="modal-btn-div">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">Map
+                view</button>
+        </div>
+        
+        
         <!-- Map Modal-->
         <div class="modal fade" id="modal" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
                     <div class="modal-body">
                         <div id="map"></div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Understood</button>
                     </div>
                 </div>
             </div>
