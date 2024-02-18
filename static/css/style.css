@@ -60,12 +60,17 @@ h2 {
     position: relative;
 }
 
-a.page-link {
+.page-link {
     background-color: #320011;
     color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
-a.page-link:hover {
+.page-link:hover {
     background-color: #57021e;
 }
 
