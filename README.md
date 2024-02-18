@@ -55,6 +55,7 @@ For this project we made wireframes to help with planning and design. While some
 * CSS
 * Bootstrap
 * Django
+* JavaScript
 
 ## **Credits**
 Thank you for the team effort to:
