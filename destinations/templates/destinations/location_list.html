@@ -14,7 +14,7 @@
                 {% for location in locations %}
                 <div class="col-md-12">
                     <h2><a href="{% url 'location' location.id %}">{{ location.name }}</a></h2>
-                    <img class="img-fluid" src="{{ location.image }}" alt="">
+                    <img class="img-border img-fluid border border-5" src="{{ location.image }}" alt="">
                     <p>{{ location.description | safe }}</p>
                 </div>
                 {% endfor %}
