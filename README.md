@@ -3,7 +3,9 @@
 Team repo for Feb Hackathon '24
 
 ## **Intro**
-The app is designed to allow the users to find romantic places to bring their loved one on valentines day. The app allows the user to find locations world wide. The user enters the country of choice and is then offered a number of location in that country. The user can then search via city or country and is offered locations. The search can be carried out via map or form. The search offers a picture of the location and a brief description about the location. The user can select the specific location and will be offered a more detailed description about the location and an ability to read the reviews from others. The app also offers the user the ability to input their own review and to rate the location.
+Valentine Ventures is designed to help users find romantic places to bring their special someone on Valentine's Day. The app allows the user to find locations worldwide. The user enters the country or city/region of choice and then finds a selection of romantic destinations in the chosen area. Alternatively, users can check the map for destinations or simply browse all destinations.
+
+The list of destinations presents each destination with a picture, an average rating, and a brief description of the place. Clicking through to a destination reveals the full information along with reviews left by users. Here, the user can also leave a review to share their thoughts about the location and their experiences there.
 
 ![Hero image](static/images/home-page-collage-heart.png)
 
@@ -110,8 +112,7 @@ Thank you for the team effort to:
 * [Viola](https://github.com/violaberg)
 * [Sam](https://github.com/SamMartin92)
 * [Chris](https://github.com/CMed01)
-* [Steph](https://github.com/StephShobiye)
 * [Emil](https://github.com/EmilionR)
 * [Declan](https://github.com/Declan444)
 * [Laura](https://github.com/laurakond)
-
+* [Steph](https://github.com/StephShobiye)
