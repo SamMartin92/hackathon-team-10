@@ -172,13 +172,6 @@ a.btn-primary:hover,
     border-color: #e8dfdf;
 }
 
-/* Nav */
-
-#nav-toggler {
-    max-width: 1rem !important;
-    font-size: 1rem !important;
-}
-
 /* Search bar */
 
 .search-wrapper {
