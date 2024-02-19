@@ -34,11 +34,6 @@ h1 {
     font-weight: 600;
 }
 
-.navbar {
-    margin-right: 2rem;
-    margin-top: 2rem;
-}
-
 p a {
     color: #320011;
 }
@@ -59,7 +54,7 @@ h2 {
     padding-top: 2rem;
 }
 
-#nav {
+nav {
     display: flex;
     justify-content: center;
     font-size: x-large;
@@ -105,7 +100,6 @@ h2 {
     border: 2px solid #320011;
     border-radius: 12px;
     padding: 4px;
-    background-color: #DCBEBE;
 }
 
 .card {
@@ -283,7 +277,7 @@ footer {
 /* Media queries for responsiveness (optional) */
 @media (max-width: 768px) {
     h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     p.lead {

@@ -49,13 +49,26 @@ For this project we made wireframes to help with planning and design. While some
 ![image](https://github.com/SamMartin92/hackathon-team-10/assets/99427270/d80ad823-cb26-4ca9-96c7-7086bf75af78)
 ![image](https://github.com/SamMartin92/hackathon-team-10/assets/99427270/56256a45-e9a4-49f7-bc2f-d94643b1669a)
 
-## **Tech**
+## Technologies Used
 
-* HTML
-* CSS
-* Bootstrap
-* Django
-* JavaScript
+### Main Languages Used
+
+- HTML5
+- CSS3
+- Python
+- Javascript
+
+### APIs Used
+- [Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/overview) - Google Maps API displays map with markers on each romantic location
+
+### Frameworks, Libraries & Programs Used
+
+- Django - Python framework which allows for easy backend site development
+- Google Fonts - for the font families:
+- Font Awesome - to add icons to site
+- GitPod/Codeanywhere - where all site files were developed 
+- GitHub - to store my repository for submission.
+- Bootstrap - CSS library for styling
 
 ## **Credits**
 Thank you for the team effort to:

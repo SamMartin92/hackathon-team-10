@@ -34,11 +34,6 @@ h1 {
     font-weight: 600;
 }
 
-.navbar {
-    margin-right: 2rem;
-    margin-top: 2rem;
-}
-
 p a {
     color: #320011;
 }
@@ -57,12 +52,6 @@ p i:hover {
 
 h2 {
     padding-top: 2rem;
-}
-
-#nav {
-    display: flex;
-    justify-content: center;
-    font-size: x-large;
 }
 
 .destination {
@@ -282,9 +271,6 @@ footer {
 
 /* Media queries for responsiveness (optional) */
 @media (max-width: 768px) {
-    h1 {
-        font-size: 3rem;
-    }
 
     p.lead {
         font-size: 1rem;
