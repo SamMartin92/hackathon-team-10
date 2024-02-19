@@ -24,7 +24,7 @@ To learn more and see the reviews, the user can click through to the chosen dest
 
 __Map View__
 
-![Map](documentation/features-2.png)
+![Map](documentation/features-3.png)
 
 Visitors can also view the locations on a map to see where they are and how far away.
 This way, a potential traveler can choose a destination based on its location first and then read about it,
@@ -32,7 +32,7 @@ rather than the other way around.
 
 __Search__
 
-![Search bar](documentation/features-2.png)
+![Search bar](documentation/features-1.png)
 
 The search bar gives suggestions of locations in response to input.
 For example, typing in an 'S' will give suggestions such as "Spain," "Serbia," and "Stockholm."
@@ -40,7 +40,7 @@ Clicking a suggestion autocompletes the search input. This way, visitors can qui
 
 __Reviews__
 
-![Reviews](documentation/features-2.png)
+![Reviews](documentation/features-4.png)
 
 Users can easily leave a review using the review form. Reviews are on display under each destination's information section.
 Each review displays 1-5 hearts to give a quick overview before reading about their opinions.
