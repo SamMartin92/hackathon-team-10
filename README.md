@@ -100,11 +100,13 @@ For this project, we made wireframes to help with planning and design. While som
 ### Frameworks, Libraries & Programs Used
 
 - Django - Python framework for easy backend development
+- Bootstrap - CSS library for styling
 - Google Fonts - for the font families:
 - Font Awesome - to add icons to site
 - VSCode, GitPod, & Codeanywhere - where all site files were developed 
 - GitHub - to store my repository for submission.
-- Bootstrap - CSS library for styling
+- Canva - for image editing and collage
+- Pexels - for images
 
 ## **Credits**
 Thank you for the team effort to:
