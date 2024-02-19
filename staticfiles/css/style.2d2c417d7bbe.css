@@ -54,7 +54,7 @@ h2 {
     padding-top: 2rem;
 }
 
-#nav {
+nav {
     display: flex;
     justify-content: center;
     font-size: x-large;
