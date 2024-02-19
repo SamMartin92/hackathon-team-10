@@ -172,13 +172,6 @@ a.btn-primary:hover,
     border-color: #e8dfdf;
 }
 
-/* Nav */
-
-#nav-toggler {
-    max-width: 1rem !important;
-    font-size: 1rem !important;
-}
-
 /* Search bar */
 
 .search-wrapper {
@@ -279,7 +272,7 @@ footer {
 /* Media queries for responsiveness (optional) */
 @media (max-width: 768px) {
     h1 {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     p.lead {
