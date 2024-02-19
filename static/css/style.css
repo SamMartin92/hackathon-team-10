@@ -34,6 +34,11 @@ h1 {
     font-weight: 600;
 }
 
+.navbar {
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
 p a {
     color: #320011;
 }
